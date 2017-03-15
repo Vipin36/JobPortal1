@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="palletechnology.com.jobportal.SearchJobTitleFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jobportal_icon"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/skyBlue">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/textview_margin"
+            android:text="@string/searchJobTitleString"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:textSize="@dimen/midium_text_size"
+            android:layout_marginTop="@dimen/midium_text_size"
+            android:text="@string/selectJobTitleString"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchJobAutoCompleteTextView"
+            android:background="@color/white"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectCityString"
+            android:textColor="@color/white"
+            android:textSize="@dimen/midium_text_size"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginTop="@dimen/textview_margin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:background="@color/white">
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectCitySpinner"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"
+            ></Spinner>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="53dp"
+            android:id="@+id/findJobButton"
+            android:background="@drawable/blank_button"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/half_textview_margin"
+            android:text="@string/findJobsString" />
+    </LinearLayout>
+
+</LinearLayout>

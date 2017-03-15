@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Job Portal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="createAnAccountString">Create An Account.</string>
+    <string name="emailString">Email</string>
+    <string name="passwordString">Password</string>
+    <string name="conformPasswordString">Conform Password</string>
+    <string name="signInString">Sign In</string>
+    <string name="forgotPasswordString">Forgot Password?, Enter Email Address.</string>
+    <string name="submitString">Submit</string>
+    <string name="searchJobTitleString">Search Job Title</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="selectCityString">Select City</string>
+    <string name="selectJobTitleString">Select Job Title</string>
+    <string name="findJobsString">Find Jobs</string>
+    <string name="filtrString">Apply Filter</string>
+    <string name="adminLogin">Admin Login</string>
+    <string name="adminIdString">Admin Id </string>
+    <string name="adminpassString">Admin Password </string>
+    <string name="addjobDetailString">Add Jobs Detail :</string>
+    <string name="postJobString">Post a Job</string>
+    <string name="companyNameString">Company Name</string>
+    <string name="postJobHintString">Enter Address or Other Description.</string>
+    <string name="postString">Post</string>
+    <string name="jobPostDate">Job Posted Date: </string>
+    <string name="jobPlatformString">Job Platform :</string>
+    <string name="minExpString">Minmum Experience :</string>
+    <string name="jobTypeString">Job Type :</string>
+    <string name="jobDescription">Description :</string>
+    <string name="saveThisJobString">Save this job</string>
+    <string name="applyString">Apply From my Computer</string>
+    <string name="MyAccount">My Account</string>
+    <string name="enterInYourAccount">Enter in your Account.</string>
+    <string name="enterInAccountString">Enter In Account</string>
+    <string name="myJobsString">My save Jobs</string>
+    <string-array name="city_names">
+        <item>Select City</item>
+        <item>Bangalore</item>
+        <item>Hyderabad</item>
+        <item>Chenni</item>
+        <item>Noida</item>
+        <item>Pune</item>
+        <item>Mumbai</item>
+    </string-array>
+    <string-array name="experience">
+        <item>Experience Level </item>
+        <item> Fresher</item>
+        <item> 1 year</item>
+        <item> 2 year</item>
+        <item> 3 year</item>
+        <item> 4 year</item>
+        <item> 5 year</item>
+        <item> 6 year</item>
+        <item> 7 year</item>
+        <item> 8 year</item>
+        <item> 9 year</item>
+        <item> 10 year</item>
+    </string-array>
+    <string-array name="technology">
+        <item>Technology</item>
+        <item>Any Language</item>
+        <item>Android</item>
+        <item>Java</item>
+        <item>Tester</item>
+        <item>.Net</item>
+        <item>Php</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>SQL</item>
+        <item>Technical Support</item>
+        <item>Voice Process</item>
+        <item>Non-Voice Process</item>
+        <item>Production Support</item>
+    </string-array>
+    <string-array name="job_type">
+        <item>Job Type</item>
+        <item>Full-time</item>
+        <item>Internship</item>
+        <item>Fresher</item>
+        <item>Walk-in</item>
+        <item>Part-Time</item>
+    </string-array>
+</resources>

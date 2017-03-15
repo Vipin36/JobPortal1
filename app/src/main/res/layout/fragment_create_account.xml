@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="palletechnology.com.jobportal.CreateAccountFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jobportal_icon"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/skyBlue">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="93dp"
+            android:layout_height="93dp"
+            android:background="@drawable/create_account"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/createAnAccountString"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_size"
+
+            android:layout_gravity="center"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emailString"
+            android:textSize="@dimen/midium_text_size"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"
+            android:id="@+id/createAccountEmailEditText"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passwordString"
+            android:textSize="@dimen/midium_text_size"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginTop="@dimen/textview_margin"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:id="@+id/createAccountPassEditText"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:text="@string/conformPasswordString"
+            android:textSize="@dimen/midium_text_size"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:id="@+id/createAccountConformPassEditText"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin" />
+
+        <Button
+            android:layout_width="164dp"
+            android:layout_height="54dp"
+            android:background="@drawable/blank_button"
+            android:text="@string/submitString"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:id="@+id/createAccountSubmitButton"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_gravity="center"
+            android:textSize="@dimen/midium_text_size"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

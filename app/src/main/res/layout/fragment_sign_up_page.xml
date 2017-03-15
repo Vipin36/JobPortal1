@@ -1,0 +1,150 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="palletechnology.com.jobportal.SignUpPageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jobportal_icon"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/skyBlue"
+        android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="119dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="-10dp"
+            android:background="@drawable/jobseeker"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signInString"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emailString"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:textSize="@dimen/midium_text_size"
+            android:layout_marginLeft="@dimen/textview_margin"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"
+            android:id="@+id/signInEmailEditText"
+            android:background="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/passwordString"
+            android:textSize="@dimen/midium_text_size"
+            android:textColor="@color/white"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginTop="@dimen/textview_margin"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:inputType="textPassword"
+            android:id="@+id/signInPassEditText"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+            <Button
+                android:layout_width="112dp"
+                android:layout_height="50dp"
+                android:id="@+id/signInButton"
+                android:layout_marginTop="@dimen/textview_margin"
+                android:background="@drawable/blank_button"
+                android:text="@string/signInString"
+                android:textAllCaps="false"
+                android:layout_marginRight="@dimen/textview_margin"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or"
+                android:textColor="@color/white"
+                android:textSize="@dimen/midium_text_size"/>
+
+            <Button
+                android:layout_width="142dp"
+                android:layout_height="51dp"
+                android:textColor="@color/white"
+                android:background="@drawable/blank_button"
+                android:layout_marginLeft="@dimen/textview_margin"
+                android:text="Sign In With Gmail"
+                android:id="@+id/signWithGmailButton"
+                android:layout_marginTop="@dimen/textview_margin"
+                android:textAllCaps="false" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgotPasswordString"
+            android:textColor="@color/white"
+            android:textSize="@dimen/midium_text_size"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:weightSum="1"
+           android:gravity="center"
+           android:layout_gravity="center">
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="    "
+               android:layout_marginLeft="@dimen/textview_margin"
+               android:background="@color/white"
+               android:layout_gravity="center"
+               android:id="@+id/forgotPassEmailEditText"
+               android:layout_weight="0.97" />
+           <Button
+               android:layout_width="93dp"
+               android:layout_height="35dp"
+               android:background="@drawable/blank_button"
+               android:text="@string/submitString"
+               android:layout_marginLeft="@dimen/textview_margin"
+               android:textColor="@color/white"
+               android:textAllCaps="false"
+               android:layout_gravity="center"
+               android:id="@+id/forgotPassSubmitButton"
+               android:layout_weight="0.01" />
+       </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>

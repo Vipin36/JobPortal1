@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="palletechnology.com.jobportal.WelcomePageFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jobportal_icon"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/skyBlue"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome To Job Portal."
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Have Account?"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size"/>
+        <ImageButton
+            android:layout_width="213dp"
+            android:layout_height="147dp"
+            android:background="@drawable/login_imagebutton"
+            android:layout_gravity="center"
+            android:id="@+id/loginImageButton"
+            android:layout_weight="0.30" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="1">
+            <Button
+                android:layout_width="124dp"
+                android:layout_height="52dp"
+                android:text="Create Account"
+                android:background="@drawable/blank_button"
+                android:id="@+id/createAccountButton"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="0.13" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:layout_weight="0.52" />
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="52dp"
+                android:text="Use Without Account"
+                android:id="@+id/useWithoutAccButton"
+                android:textAllCaps="false"
+                android:background="@drawable/blank_button"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_weight="0.18" />
+        </LinearLayout>
+        <Button
+            android:layout_width="291dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/midium_text_size"
+            android:background="@drawable/blank_button"
+            android:text="@string/MyAccount"
+            android:textAllCaps="false"
+            android:id="@+id/myAccountButton"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context="palletechnology.com.jobportal.PostJobFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/skyBlue">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postJobString"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        android:layout_marginRight="@dimen/textview_margin"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/dateOrTimeTextView"
+        android:layout_marginRight="@dimen/textview_margin"
+        android:layout_marginLeft="@dimen/textview_margin"
+        android:layout_marginTop="@dimen/textview_margin"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/companyNameString"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/midium_text_size"
+            android:layout_marginLeft="@dimen/textview_margin"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:id="@+id/postCompanyNameEditText"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/postCitySpinner"></Spinner></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"
+            android:background="@color/white"
+            android:weightSum="1">
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selectExperianceLevelSpinner"
+                android:layout_weight="0.50">
+            </Spinner>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:id="@+id/postJopTypeSpinner"></Spinner>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"
+            android:background="@color/white">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/selectTechnologySpinner">
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/textview_margin"
+            android:layout_marginLeft="@dimen/textview_margin"
+            android:layout_marginRight="@dimen/textview_margin"
+            android:weightSum="1">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:background="@color/white"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:hint="Enter adress or any Descreiption"
+                android:id="@+id/descEditText"
+                android:layout_weight="0.46" />
+
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="52dp"
+                android:textColor="@color/white"
+                android:text="@string/postString"
+                android:layout_marginTop="@dimen/textview_margin"
+                android:layout_gravity="center"
+                android:id="@+id/postJobButton"
+                android:background="@drawable/blank_button"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+
